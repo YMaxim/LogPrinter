@@ -73,7 +73,7 @@ public final class Printer: Sendable {
 
 // MARK: - Log messages
 extension Printer {
-    /// Prints an error log message with the specified content and metadata.
+    /// Prints an debug log message with the specified content and metadata.
     /// - Parameters:
     ///   - message: The content of the log message.
     ///   - category: The category of the log message.
@@ -96,7 +96,7 @@ extension Printer {
         logger.debug("\(resultMessage)")
     }
     
-    /// Prints an error log message with the specified content and metadata.
+    /// Prints an warning log message with the specified content and metadata.
     ///
     ///
     /// - Parameters:
